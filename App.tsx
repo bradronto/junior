@@ -72,7 +72,7 @@ export default function App() {
           style={styles.input}
           value={input}
           onChangeText={setInput}
-          placeholder="Type a message..."
+          placeholder="Type a messaage..."
           placeholderTextColor="#999"
           multiline
           editable={!loading}

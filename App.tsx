@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, Keyboa
 import axios from 'axios';
 
 // ⬇️ CHANGE THIS to your Netlify site URL after deploying
-const API_URL = 'https://junior-ai.netlify.app/.netlify/functions/chat';
+const API_URL = 'https://junior-juror.netlify.app/.netlify/functions/chat';
 
 type Message = { role: 'user' | 'ai' | 'error'; content: string };
 
